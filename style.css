@@ -1,6 +1,7 @@
 body {
         background: #000;
         color: white;
+        font-family: 'roboto', sans-serif;
 }
 
 #banner {
@@ -18,6 +19,7 @@ body {
 
 .titulo-centralizado {
     text-align: center;
+    font-size: x-large;
 }
 
 p {
@@ -33,13 +35,14 @@ em strong {
 }
 
 .itens {
-    font-style: italic;
+    font-style: italic ;
     font-size: large;
 }
 
 .beneficios {
     background: #000;
     padding: 20px;
+    font-size: x-large;
 }
 
 ul {
@@ -48,6 +51,10 @@ ul {
     width: 20%;
     margin-right: 5%;
 }
+
+li {
+    padding: 15px;
+   }
 
 .imagembeneficios {
     width: 50%
