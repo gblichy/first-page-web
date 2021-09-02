@@ -1,42 +1,39 @@
 header {
-  background: #000;
-  height: 88px;
-  display: flex;
+  background-color: #1c1c1c;
+  padding: 20px 0;
 }
 
 body {
-  background-color: #000;
   color: white;
-  font-family: "roboto", sans-serif;
+  background-color: #000;
+  font-family: "Poppins", sans-serif;
 }
 
-#banner {
-  width: 100%;
+.caixa {
+  position: relative;
+  width: 1290px;
+  margin: 0 auto;
+}
+
+.banner {
+  position: relative;
+  width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 main {
   padding: 30px;
 }
 
-.titulo-principal {
-  padding-left: 20px;
-}
-
 .titulo-centralizado {
   text-align: center;
   font-size: x-large;
+  margin: 25px;
 }
 
 p {
   text-align: center;
-}
-
-#missao {
-  font-size: 20px;
-}
-
-em strong {
-  color: #f8af16;
 }
 
 .itens {
@@ -44,9 +41,8 @@ em strong {
   font-size: large;
 }
 
-.beneficios {
+.portifolio {
   padding: 20px;
-  font-size: x-large;
 }
 
 ul {
@@ -60,6 +56,6 @@ li {
   padding: 15px;
 }
 
-.imagembeneficios {
-  width: 50%;
+.imagemportifolio {
+  width: 100%;
 }
