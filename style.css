@@ -1,12 +1,12 @@
-header {
-  background-color: #1c1c1c;
-  padding: 20px 0;
-}
-
 body {
   color: white;
   background-color: #000;
   font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #1c1c1c;
+  padding: 20px 0;
 }
 
 .caixa {
@@ -16,10 +16,8 @@ body {
 }
 
 .banner {
-  position: relative;
-  width: 1500px;
-  margin: 0 auto;
-  padding: 20px;
+  text-align: center;
+  width: 1600px;
 }
 
 main {
@@ -29,7 +27,7 @@ main {
 .titulo-centralizado {
   text-align: center;
   font-size: x-large;
-  margin: 25px;
+  margin: 30px;
 }
 
 p {
@@ -43,17 +41,6 @@ p {
 
 .portifolio {
   padding: 20px;
-}
-
-ul {
-  display: inline-block;
-  vertical-align: top;
-  width: 20%;
-  margin-right: 5%;
-}
-
-li {
-  padding: 15px;
 }
 
 .imagemportifolio {
