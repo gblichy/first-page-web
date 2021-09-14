@@ -1,0 +1,48 @@
+body {
+  color: white;
+  background-color: #000;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #1c1c1c;
+  padding: 20px 0;
+}
+
+.caixa {
+  position: relative;
+  width: 1290px;
+  margin: 0 auto;
+}
+
+.banner {
+  text-align: center;
+  width: 1600px;
+}
+
+main {
+  padding: 30px;
+}
+
+.titulo-centralizado {
+  text-align: center;
+  font-size: x-large;
+  margin: 30px;
+}
+
+p {
+  text-align: center;
+}
+
+.itens {
+  font-style: italic;
+  font-size: large;
+}
+
+.portifolio {
+  padding: 20px;
+}
+
+.imagemportifolio {
+  width: 100%;
+}
