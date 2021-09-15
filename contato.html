@@ -15,7 +15,7 @@
   <body>
     <header>
       <div class="caixa">
-        <h1><img src="logo.png" height="150px" width="150px" /></h1>
+        <h1><img src="logo.png" height="150px" width="150px" alt="Logo DS Custom"/></h1>
 
         <nav>
           <ul>
@@ -30,20 +30,47 @@
     <main>
       <form>
         <label for="nomesobrenome">Nome e sobrenome</label>
-        <input type="text" id="nomesobrenome" />
+        <input type="text" id="nomesobrenome" class="input-padrao" required/>
 
         <label for="email">Email</label>
-        <input type="text" id="email" />
+        <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com"/>
 
         <label for="Telefone">Telefone</label>
-        <input type="text" id="telefone" />
+        <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX"/>
 
-        <input type="submit" value="Enviar formulário" />
+        <label for="mensagem">Mensagem</label>
+        <textarea cols="72" rows="10" id="mensagem"> </textarea>
+
+        <fieldset>
+          <legend>Como prefere o nosso contato?</legend>
+          <label for="radio-email" ><input type="radio" name="contato" 
+            value="email" id="radio-email"/>Email</label>
+
+          <label for="radio-telefone" ><input type="radio" name="contato"
+              value="telefone" id="radio-telefone"/>Telefone</label>
+
+          <label for="radio-whatsapp"><input type="radio" name="contato"
+              value="whatsapp" id="radio-whatsapp" checked/>Whatsapp</label>
+        </fieldset>
+        <fieldset>
+          <legend>Qual horário prefere ser atendido?</legend>
+          <select>
+            <option>Manhã</option>
+            <option>Tarde</option>
+            <option>Noite</option>
+          </select>
+        </fieldset>
+
+        <label class="checkbox"><input type="checkbox" checked/> 
+          Gostaria de receber nossas novidades poremail?</label>
+
+        <input type="submit" value="Enviar " />
+
       </form>
     </main>
 
     <footer>
-      <img src="logo.png" height="150px" width="150px" />
+      <img src="logo.png" height="150px" width="150px" alt="Logo DS Custom" />
       <p class="copyright">&copy; Copyright DS Custom - 2021</p>
     </footer>
   </body>
