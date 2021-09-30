@@ -24,7 +24,7 @@ main {
   padding: 30px;
 }
 
-.titulo-centralizado {
+.titulo-principal {
   text-align: center;
   font-size: x-large;
   margin: 30px;
@@ -45,4 +45,9 @@ p {
 
 .imagemportifolio {
   width: 100%;
+}
+footer {
+  text-align: center;
+  background: url("bg.jpg");
+  padding: 60px 0;
 }
